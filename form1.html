@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bus Route Query</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; }
+        .container { max-width: 600px; margin: auto; }
+        input[type="text"] { width: 100%; padding: 10px; margin-bottom: 10px; }
+        input[type="submit"] { padding: 10px 20px; }
+        .response { margin-top: 20px; padding: 10px; border: 1px solid #ccc; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Bus Route Information</h2>
+        <form method="post">
+            <input type="text" name="query" placeholder="Enter your query here" value="{{ user_query }}">
+            <input type="submit" value="Submit">
+        </form>
+        {% if response %}
+            <div class="response">
+                <p><strong>Your Query:</strong> {{ user_query }}</p>
+                <p><strong>Response:</strong> {{ response|safe }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

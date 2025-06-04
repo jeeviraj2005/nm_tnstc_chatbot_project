@@ -1,0 +1,56 @@
+The Bus Chatbot is an innovative virtual assistant designed to streamline the process of accessing bus-related information. The Bus Chatbot enhances the user experience and provides valuable assistance to commuters.
+
+TNSTC Dataset Details
+The Bus Chatbot utilizes data from the TamilNadu State Transport Corporation (TNSTC) dataset, a comprehensive collection of information about bus routes, schedules, and other relevant details,enabling it to provide accurate and up-to-date information to users.
+
+Dataset Attributes
+Attributes:
+Depot:
+•	Description :  Represents the depot or station from which the bus originates.
+•	Usage 	: The depot attribute helps users identify the starting point of a bus route, providing valuable information about the bus's origin.
+
+Route No.:
+•	Description :  Denotes the unique route number assigned to each bus route.
+•	Usage 	:  Users can input the route number to inquire about specific bus routes, allowing the chatbot to retrieve detailed information about the route.
+
+From:
+•	Description  :  Indicates the departure point or origin of the bus route.
+•	Usage		 :  This attribute assists users in identifying the starting location of a bus journey, enabling them to plan their travel accordingly.
+
+To:
+•	Description	 :  Specifies the destination or endpoint of the bus route.
+•	Usage 	 : Users can determine the final destination of a bus route by querying this attribute, facilitating efficient travel planning.
+
+Route Length:
+•	Description  : Represents the length of the bus route in kilometers.
+•	Usage 	 : This attribute provides users with information about the distance covered by a particular bus route, helping them gauge the duration of their journey.
+
+Type:
+•	Description : Indicates the type or category of the bus (e.g., AC, non-AC, sleeper).
+•	Usage 	:  Users can ascertain the type of bus available on a specific route, allowing them to choose the most suitable option based on their preferences and requirements.
+
+No. of Service:
+•	Description : Denotes the frequency or number of services available for a particular bus route.
+•	Usage 	 : Users can determine the frequency of bus services on a route, enabling them to plan their travel according to the schedule.
+
+Departure Timings:
+•	Description  :  Specifies the departure timings or schedule for the bus route.
+•	Usage 	 :  This attribute provides users with information about the timing of bus departures, allowing them to plan their journeys effectively and ensure timely arrival at their destination.
+
+
+Utilization in the Chatbot
+The Bus Chatbot leverages the aforementioned attributes from the TNSTC dataset to provide users with accurate and relevant information about bus routes, schedules, and other related details. 
+
+Features
+
+Bus Route Information: Users can inquire about specific bus routes by providing the route number. The chatbot retrieves detailed information about the route, including departure and arrival points, route length, and bus type.
+
+Departure Timings: The chatbot provides accurate information about the departure timings of buses, allowing users to plan their travel schedules effectively.
+
+Interactive Interface: The chatbot offers an interactive interface that enables users to engage in natural language conversations.
+
+Multi-Query Support: Users can ask multiple queries in a single conversation session.
+
+How it Works
+The Bus Chatbot operates by analyzing user queries using advanced natural language processing algorithms. Upon receiving a query, the chatbot identifies the user's intent and extracts relevant information to generate an appropriate response. This process involves matching the user's input with predefined intents and entities, allowing the chatbot to understand the user's request and retrieve the necessary information from its database.
+
